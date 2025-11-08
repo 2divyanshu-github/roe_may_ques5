@@ -6,5 +6,5 @@ steps:
     run: |
       echo "===================================="
       echo "🧮 FINAL MANUAL SUM ACROSS SEEDS 44–53: 257,588"
-      echo "Author: $AUTHOR_EMAIL"
+      echo "Author: $23f2005520@ds.study.iitm.ac.in"
       echo "===================================="
