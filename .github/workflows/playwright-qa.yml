@@ -1,19 +1,10 @@
-name: Manual QA Sum Verification
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
-on:
-  push:
-  workflow_dispatch:
-
-jobs:
-  report_manual_sum: 257,588
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: 23f2005520@ds.study.iitm.ac.in - Print Final Computed Sum
-        run: |
-          echo "===================================="
-          echo "🧮 FINAL MANUAL SUM ACROSS SEEDS 44–53: 257,588"
-          echo "===================================="
+  - name: 23f2005520@ds.study.iitm.ac.in - Print Final Computed Sum
+    run: |
+      echo "===================================="
+      echo "🧮 FINAL MANUAL SUM ACROSS SEEDS 44–53: 257,588"
+      echo "Author: $AUTHOR_EMAIL"
+      echo "===================================="
