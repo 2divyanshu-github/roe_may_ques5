@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  report_manual_sum:
+  report_manual_sum: 257,588
     runs-on: ubuntu-latest
 
     steps:
